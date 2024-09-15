@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>CSS meme slider</title>
-</head>
-<body>
-  <div class="slider">
-    
-  </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>CSS meme slider</title>
+	</head>
+	<body>
+		<div class="slider">
+			<input
+				class="input-radio"
+				type="radio"
+				name="slide"
+				id="slide-1"
+				checked
+			/>
+			<input class="input-radio" type="radio" name="slide" id="slide-2" />
+			<input class="input-radio" type="radio" name="slide" id="slide-3" />
+			<input class="input-radio" type="radio" name="slide" id="slide-4" />
+
+			<div class="slides">
+				<div class="slide">
+					<img class="slide__img" src="./images/meme-1.jpg" alt="first meme" />
+				</div>
+				<div class="slide">
+					<img class="slide__img" src="./images/meme-2.jpg" alt="second meme" />
+				</div>
+				<div class="slide">
+					<img class="slide__img" src="./images/meme-3.jpg" alt="third meme" />
+				</div>
+				<div class="slide">
+					<img class="slide__img" src="./images/meme-4.jpg" alt="fourth meme" />
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
